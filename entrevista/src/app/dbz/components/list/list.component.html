@@ -1,0 +1,4 @@
+<h2>Listado de personajes</h2>
+<ul *ngFor="let personaje of personajeList.concat(personajesAdicionales)">
+    <li>Pj: {{personaje.nombre}} - poder {{personaje.poder}}</li>
+</ul>
